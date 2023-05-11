@@ -1,0 +1,87 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+a {
+    text-decoration: underline;
+    color: white
+}
+
+a:hover {
+    color: rgb(218,64,218);
+}
+
+.background {
+    z-index: -1;
+    width: 100%;
+    height: 900px;
+    position: absolute;
+    margin-top: -100px;
+    justify-content: center;
+}
+
+
+.sign-in-text {
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    font-size: 2em;
+}
+
+.SignInBorder {
+    z-index: 1;
+    height: 19em;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: grid;
+}
+
+#signin {
+    width:320px;
+    height:33px;
+    font-size: 14px;
+    background: linear-gradient(#c607c3, #e7e9ec);
+    border: 0.5px solid #aaaaaa;
+    border-radius: 3px;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+
+
+
+input {
+    border-left-color: #DDDDDD;
+    border-right-color: #DDDDDD;
+    border-radius: 3px;
+    border-width: 0.2px;
+    height: 25px;
+    width: 315px;
+    margin-bottom: 15px;
+    background-color: rgba(236, 111, 209, 0.3);
+}
+
+input:focus {
+    box-shadow: 0px 0px 1.5px 1.5px rgba(244, 12, 193, 0.4);
+    outline: none;
+}
+
+.createaccount {
+    margin-top: 30px;
+}
+
+#newaccount {
+    background: linear-gradient(#c607c3, #e7e9ec);
+    width: 315px;
+    height: 33px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border:0.5px solid #aaaaaa;
+    border-radius: 3px;
+    color: whitesmoke;
+}
+

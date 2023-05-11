@@ -1,0 +1,138 @@
+body{
+    background-color: rgb(222, 146, 146);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(222, 146, 146);
+    position: fixed;
+    top: 0px;
+    height: 60px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+.nav-item {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(218,64,218);
+}
+
+#brand-name {
+    color: purple;
+}
+
+.background {
+    z-index: -1;
+    width: 100%;
+    position: absolute;
+    margin-top: -100px;
+    text-align: center;
+    width: 100%;
+    background-size: cover;
+}
+
+.showfeats {
+    z-index: 1;
+    height: 19em;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    font-size: 3em;
+    text-shadow: -1px 1px 2px rgb(0,0,0),
+                  1px 1px 0 #000,
+                  1px -1px 0 #000,
+                 -1px -1px 0 #000;
+}
+
+#FirstPanel {
+    text-align: center;
+}
+
+#FirstPanelIMG {
+    text-align: center;
+    width: 100%;
+}
+
+#FirstPanelH1 {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 10%;
+    white-space: nowrap;
+}
+
+.our-classes {
+    color: white;
+    margin-top: 5%;
+}
+
+.class-container {
+    background-color: rgba(0, 0, 0, 0.196);
+    padding: 5%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    font-weight: 900;
+    text-decoration: underline;
+}
